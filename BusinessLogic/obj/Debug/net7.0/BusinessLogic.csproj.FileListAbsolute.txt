@@ -1,0 +1,17 @@
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.AssemblyInfo.cs
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\BusinessLogic.deps.json
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\BusinessLogic.runtimeconfig.json
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\BusinessLogic.dll
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\BusinessLogic.pdb
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\Core.dll
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\bin\Debug\net7.0\Core.pdb
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.csproj.CopyComplete
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.dll
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\refint\BusinessLogic.dll
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.pdb
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\BusinessLogic.genruntimeconfig.cache
+D:\Desarrollos\MarketCall\HMarket\HMarket\BusinessLogic\obj\Debug\net7.0\ref\BusinessLogic.dll
