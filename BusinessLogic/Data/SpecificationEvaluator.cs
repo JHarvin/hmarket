@@ -26,7 +26,9 @@ namespace BusinessLogic.Data
             {
                 inputQuery = inputQuery.OrderByDescending(spec.OrderByDesc);
             }
-
+            if (spec.IsPagingEnable) {
+            inputQuery = inputQuery.Skip(spec.Skip).Take(spec.Take);
+            }
 
             inputQuery = spec.Includes.Aggregate(inputQuery,(current, include) =>current.Include(include) );
             return inputQuery;

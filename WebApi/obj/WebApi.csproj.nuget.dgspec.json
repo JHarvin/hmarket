@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj": {}
+    "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj": {
+    "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\harvi\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\obj\\",
+        "outputPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj": {
-                "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj"
+              "D:\\Desarrollos\\hmarket\\Core\\Core.csproj": {
+                "projectPath": "D:\\Desarrollos\\hmarket\\Core\\Core.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj": {
+    "D:\\Desarrollos\\hmarket\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\hmarket\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj",
+        "projectPath": "D:\\Desarrollos\\hmarket\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\harvi\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\obj\\",
+        "outputPath": "D:\\Desarrollos\\hmarket\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,14 +168,14 @@
         }
       }
     },
-    "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj": {
+    "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\harvi\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\obj\\",
+        "outputPath": "D:\\Desarrollos\\hmarket\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,8 +196,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj"
+              "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }

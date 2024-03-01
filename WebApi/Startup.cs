@@ -34,6 +34,13 @@ public class Startup
 
 
     services.AddControllers();
+    services.AddCors(opt =>
+    {
+        opt.AddPolicy("CorsRule", rule =>
+        {
+            rule.AllowAnyHeader().AllowAnyMethod().WithOrigins("*");
+        });
+    });
     }
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
         //if (env.IsDevelopment()) {
@@ -43,6 +50,7 @@ public class Startup
         app.UseStatusCodePagesWithReExecute("/error","?code={0}");
 
         app.UseRouting();
+        app.UseCors("CorsRule");
         app.UseAuthentication();
         app.UseAuthorization();
         app.UseEndpoints(endpoints => { endpoints.MapControllers(); });

@@ -8,12 +8,20 @@ namespace Core.Entities.Specifications
 {
     public class ProductoWithCategoriaAndMarca : BaseSpecification<Producto>
     {
-        public ProductoWithCategoriaAndMarca(string sort)
+        public ProductoWithCategoriaAndMarca(ProductoSpecificationParam param)
+            : base(x =>
+            (string.IsNullOrEmpty(param.Search) || x.Nombre.Contains(param.Search)) &&
+            (!param.marca.HasValue || x.MarcaId==param.marca ) &&
+            (!param.categoria.HasValue || x.CategoriaId == param.categoria)
+            )
+
         {
             AddInclude(P =>P.Categoria);
             AddInclude(P =>P.Marca);
-            if(!string.IsNullOrEmpty(sort)){
-                switch (sort)
+            ApplyPaging(param.PageSize * (param.pageIndex - 1),param.PageSize);
+            //ApplyPaging()
+            if(!string.IsNullOrEmpty(param.sort)){
+                switch (param.sort)
                 {
                     case "categoriaAsc":
                         AddOrderBy(P =>P.Categoria.Nombre);

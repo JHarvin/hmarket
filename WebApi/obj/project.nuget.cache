@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kMfTDkK8yUyG2e9IRJIXx5oiIZTrdJV2OrIUXK7ROgCs8TfOrysW0bOxdCCDhoRmzD0/k6t0Ptt1Dfcse5Y41Q==",
+  "dgSpecHash": "uIAglRnyjJXMFhjq0QpJDgT6Sfa+TGF3kgjstHLsgBb5tkwjrK1YMkkjluygiBr8szAIJmpLri3sS3COvi2ApA==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harvi\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\harvi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

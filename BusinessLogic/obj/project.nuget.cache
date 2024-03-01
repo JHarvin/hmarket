@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7tpetxryJ6H/TxrEJXXD2w0JUxQuVodRutmE2nSWyuNahHSkeTwFtkoMF9EOgQAziQ2dXLCK+Z5tYA37PVFq6Q==",
+  "dgSpecHash": "Fz47tz1pw5X7KIsvSmbrv0z7ulrlDRJLYgzMoUE9bo566YVhimw94O4UH1kNinQ0op/rS+pl7X3F6iAoEPtPFA==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harvi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\harvi\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

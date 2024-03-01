@@ -3149,11 +3149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\harvi\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\obj\\",
+      "outputPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3174,8 +3174,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj": {
-              "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\Core\\Core.csproj"
+            "D:\\Desarrollos\\hmarket\\Core\\Core.csproj": {
+              "projectPath": "D:\\Desarrollos\\hmarket\\Core\\Core.csproj"
             }
           }
         }

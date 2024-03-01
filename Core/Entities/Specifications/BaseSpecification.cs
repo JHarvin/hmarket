@@ -38,5 +38,18 @@ namespace Core.Entities.Specifications
             OrderByDesc = OrderByDescExpression;
 
         }
+
+        public int Take { get; private set; }
+
+        public int Skip { get; private set; }
+
+        public bool IsPagingEnable { get; private set; }
+
+        protected void ApplyPaging(int skip, int take) {
+
+            Take = take;
+            Skip = skip;
+            IsPagingEnable = true;
+        }
     }
 }

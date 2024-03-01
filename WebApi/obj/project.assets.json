@@ -3829,11 +3829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\harvi\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\WebApi\\obj\\",
+      "outputPath": "D:\\Desarrollos\\hmarket\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3854,8 +3854,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "D:\\Desarrollos\\MarketCall\\HMarket\\HMarket\\BusinessLogic\\BusinessLogic.csproj"
+            "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "D:\\Desarrollos\\hmarket\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

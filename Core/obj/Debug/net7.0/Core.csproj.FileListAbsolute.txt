@@ -10,3 +10,15 @@ D:\Desarrollos\MarketCall\HMarket\HMarket\Core\obj\Debug\net7.0\Core.dll
 D:\Desarrollos\MarketCall\HMarket\HMarket\Core\obj\Debug\net7.0\refint\Core.dll
 D:\Desarrollos\MarketCall\HMarket\HMarket\Core\obj\Debug\net7.0\Core.pdb
 D:\Desarrollos\MarketCall\HMarket\HMarket\Core\obj\Debug\net7.0\ref\Core.dll
+D:\Desarrollos\hmarket\Core\bin\Debug\net7.0\Core.deps.json
+D:\Desarrollos\hmarket\Core\bin\Debug\net7.0\Core.dll
+D:\Desarrollos\hmarket\Core\bin\Debug\net7.0\Core.pdb
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.dll
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\refint\Core.dll
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\Core.pdb
+D:\Desarrollos\hmarket\Core\obj\Debug\net7.0\ref\Core.dll
