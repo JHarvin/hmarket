@@ -4,6 +4,7 @@ using BusinessLogic.Data;
 using BusinessLogic.Logic;
 using Core.Entities;
 using Core.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -11,7 +12,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using System.Security.Principal;
+using System.Text;
 using WebApi.Dtos;
 using WebApi.MiddleWare;
 
@@ -25,12 +28,26 @@ public class Startup
         Configuration = configuration;
     }
     public void ConfigureServices(IServiceCollection services) {
+
+        services.AddScoped<ITokenService, TokenService>();
+
         var builder = services.AddIdentityCore<Usuario>();
         builder = new IdentityBuilder(builder.UserType,builder.Services);
         builder.AddEntityFrameworkStores<SeguridadDBContext>();
         builder.AddSignInManager<SignInManager<Usuario>>();
 
-        services.AddAuthentication();
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+            options => {
+                options.TokenValidationParameters = new TokenValidationParameters {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:key"])),
+                    ValidIssuer = Configuration["Token:Issuer"],
+                    ValidateIssuer = true,
+                    ValidateAudience = false,
+                
+                };
+            }
+            );
 
         services.AddAutoMapper(typeof(MappingProfile));
         services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));

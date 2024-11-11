@@ -7,6 +7,9 @@ namespace WebApi.Dtos
     {
         public MappingProfile() { 
         CreateMap<Producto, ProductoDto>().ReverseMap();
+            CreateMap<Direccion, DireccionDto>().ReverseMap();
+
+
         }
     }
 }
