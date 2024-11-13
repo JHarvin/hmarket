@@ -30,8 +30,9 @@ namespace WebApi.Controllers
             _tokenService = tokenService;
             _mapper = mapper;
         }
-        [HttpPost("login")]
 
+        
+        [HttpPost("login")]
         public async Task<ActionResult<UsuarioDto>> Login([FromBody] LoginDto loginDto)
         {
             var usuario = await _userManager.FindByEmailAsync(loginDto.Email);

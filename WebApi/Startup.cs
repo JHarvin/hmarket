@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using StackExchange.Redis;
 using System.Security.Principal;
 using System.Text;
 using WebApi.Dtos;
@@ -51,6 +52,7 @@ public class Startup
 
         services.AddAutoMapper(typeof(MappingProfile));
         services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
+
         services.AddDbContext<MarketDbContext>(opt =>
         {
             opt.UseSqlServer(Configuration.GetConnectionString("DefaultConection"));
@@ -60,8 +62,17 @@ public class Startup
         services.AddDbContext<SeguridadDBContext>(opt => {
             opt.UseSqlServer(Configuration.GetConnectionString("IdentitySeguridad"));
         });
-    services.AddTransient<IProductoRepository, ProductoRepository>();
 
+        //conexion para redis
+        services.AddSingleton<IConnectionMultiplexer>(c => {
+            //esto se ejecuta dentro de un docker container
+            var configuration = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"),true);// cadena configurada en appsettings
+            return ConnectionMultiplexer.Connect(configuration);
+        });
+        // fin conexion redis
+
+    services.AddTransient<IProductoRepository, ProductoRepository>();
+        services.AddScoped<ICarritoCompraRepository,CarritoCompraRepository>();
 
     services.AddControllers();
     services.AddCors(opt =>
