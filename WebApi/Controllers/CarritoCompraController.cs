@@ -21,7 +21,7 @@ public class CarritoCompraController : BaseApiController
         return Ok(carrito ?? new CarritoCompra(id));
     
     }
-
+    //sirve para guardar y actualizar
     [HttpPost("updateCarritoCompra")]
     public async Task<ActionResult<CarritoCompra>> updateCarritoCompra(CarritoCompra carritoParam)
     {
