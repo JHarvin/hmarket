@@ -62,4 +62,30 @@ public class ProductoController : BaseApiController
        
     }
 
+    [HttpPost("addproducto")]
+    public async Task<ActionResult<Producto>> AddProducto([FromBody] Producto producto ) { 
+    
+      var resultado = await _productoRepository.Add(producto);
+        if (resultado == 0)
+        {
+            throw new Exception("No se inserto el producto");
+        }
+        return Ok(producto);
+    
+    }
+    [HttpPut("updateproducto/{id}")]
+    public async Task<ActionResult<Producto>> UpdateProducto(int id, [FromBody] Producto producto ) { 
+      producto.Id = id;
+        var resultado = await _productoRepository.Update(producto);  
+        if (resultado == 0)
+        {
+            throw new Exception("No se pudo actualizar el producto");
+
+        }
+        return Ok(producto);
+
+    
+    }
+
+
 }
