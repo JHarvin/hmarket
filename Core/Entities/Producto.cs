@@ -17,6 +17,6 @@ namespace Core.Entities
         public Categoria Categoria { get; set; }
         
         public decimal Precio { get; set; }
-        public string Imagen { get; set; }
+        public string Imagen { get; set; }// ruta de la imagen
     }
 }

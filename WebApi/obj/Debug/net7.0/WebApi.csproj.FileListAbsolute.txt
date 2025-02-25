@@ -147,9 +147,15 @@ D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets.build.json
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets.development.json
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
-D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.dll
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\refint\WebApi.dll
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.pdb
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.sourcelink.json
+D:\Desarrollos\hmarket\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\Desarrollos\hmarket\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.endpoints.json
+D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\Desarrollos\hmarket\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date

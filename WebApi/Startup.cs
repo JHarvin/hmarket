@@ -87,12 +87,15 @@ public class Startup
         //if (env.IsDevelopment()) {
         //  app.UseDeveloperExceptionPage();
         //}
+       
+
         app.UseMiddleware<ExceptionMiddleWare>();
         app.UseStatusCodePagesWithReExecute("/error","?code={0}");
         
         
         app.UseRouting();
         app.UseCors("CorsRule");
+        app.UseStaticFiles();
         app.UseAuthentication();
         app.UseAuthorization();
         app.UseEndpoints(endpoints => { endpoints.MapControllers(); });

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uIAglRnyjJXMFhjq0QpJDgT6Sfa+TGF3kgjstHLsgBb5tkwjrK1YMkkjluygiBr8szAIJmpLri3sS3COvi2ApA==",
+  "dgSpecHash": "h+q7sEWuVcc=",
   "success": true,
   "projectFilePath": "D:\\Desarrollos\\hmarket\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -91,5 +91,16 @@
     "C:\\Users\\harvi\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\harvi\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.AspNetCore.Authentication.JwtBearer\" 5.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

@@ -751,7 +751,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.9.0"
         },
         "runtime": {
-          "BusinessLogic.dll": {}
+          "BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Core/1.0.0": {
@@ -759,7 +762,10 @@
           "Microsoft.Extensions.Identity.Stores": "6.0.0"
         },
         "runtime": {
-          "Core.dll": {}
+          "Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
